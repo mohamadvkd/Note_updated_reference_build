@@ -1,2 +1,24 @@
-# Note_updated_reference_build
-Flutter project created by KLENCOD IDE
+# Smart Notes — FlutterIDE Template
+قالب Flutter لتطبيق مذكرة عملي يعمل محليًا دون حساب أو خادم، ومهيأ بنفس إعدادات البناء والإصدارات الموجودة في القالب المرجعي.
+
+## التوافق
+- Flutter 3.16.0 كما في Workflow القالب المرجعي.
+- Android Gradle Plugin 7.3.0.
+- Kotlin 1.7.10.
+- Java 11 في Workflow البناء.
+- compileSdkVersion وtargetSdkVersion: 33.
+- minSdkVersion: 21.
+
+## المزايا
+- إنشاء الملاحظات وتعديلها وحذفها.
+- تثبيت الملاحظات المهمة في الأعلى.
+- البحث الفوري داخل العنوان والمحتوى.
+- تصنيفات Work وPersonal وIdeas.
+- ألوان مختلفة للملاحظات.
+- عداد كلمات وآخر وقت تعديل.
+- تخزين محلي باستخدام SharedPreferences.
+- واجهة دافئة مع دعم الوضع الداكن.
+- بيانات تجريبية واضحة يمكن حذفها بسهولة.
+
+## التشغيل
+استورد المجلد كاملًا داخل FlutterIDE، وتأكد أن `pubspec.yaml` و`android/` في الجذر، ثم شغّل Build APK.
